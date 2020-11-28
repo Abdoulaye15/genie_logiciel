@@ -16,6 +16,7 @@ public class Calculator {
             if (a!=0)
                 return b / a;
             else  return a /b;
+
         }
 
         public int multiply(int a ,int b){
