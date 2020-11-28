@@ -21,7 +21,7 @@ public class CalculatorTest {
             Assert.fail();
         }
     }
-    
+
     @Test
     public void minus() {
 
