@@ -56,6 +56,11 @@ public class CalculatorTest {
         int max4 = calculator.Max(9, 8);
         Assert.assertEquals(9, max4);
 
+        int max5 = calculator.Max(1, 5);
+        Assert.assertEquals(5, max5);
+
+
+
     }
 
     @Test
