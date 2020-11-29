@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class CalculatorTest {
@@ -77,6 +78,7 @@ public class CalculatorTest {
 
 
     @Test
+    @Ignore
     public void minElement() {
         int tab[]={
                 2,4,6,7
@@ -86,6 +88,7 @@ public class CalculatorTest {
 
     }
     @Test
+    @Ignore
     public void maxElement(){
         int tab[]={
                 2,4,7,8
